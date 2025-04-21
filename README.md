@@ -36,12 +36,11 @@ conda env create -f environment.yml conda activate oral-cancer-env
 ```
 
 # Project Structure
-
-```plaintext 
-notebooks/ # Development notebooks for training & evaluation
-src/ # Preprocessing and training scripts
-data/ # DO NOT upload large files;
-placeholders only models/ # Trained model outputs (add to .gitignore)
+```plaintext
+notebooks/       # Development notebooks for training & evaluation
+src/             # Preprocessing and training scripts
+data/            # DO NOT upload large files; placeholders only
+models/          # Trained model outputs (add to .gitignore)
 ```
 
 # Contact
