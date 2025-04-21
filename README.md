@@ -25,10 +25,13 @@ Develop and evaluate convolutional neural networks (CNNs) to classify image data
 How to Reproduce
 
 # Clone the repo
-<pre> ```bash git clone https://github.com/yourusername/oral-cancer-detection.git cd oral-cancer-detection ``` </pre>
+```bash
+git clone https://github.com/yourusername/oral-cancer-detection.git
+cd oral-cancer-detection
 
 # Create the environment
-<pre> ```bash conda env create -f environment.yml conda activate oral-cancer-env ``` </pre>
+```bash
+conda env create -f environment.yml conda activate oral-cancer-env
 
 # Project Structure
 
