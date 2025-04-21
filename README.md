@@ -14,11 +14,9 @@ This project explores the use of deep learning to support early detection of ora
 
 ## Histopathological Images
 
-* ORCHID Database: A curated dataset of oral cancer histology images.
-
-* Zenodo Record 12636426 – training set
-
-* Zenodo Record 12646943 – validation/test set
+* ORCHID Database: A curated dataset of oral cancer histology images:
+** Zenodo Record 12636426 – training set
+**Zenodo Record 12646943 – validation/test set
 
 ## Objective
 
@@ -27,20 +25,15 @@ Develop and evaluate convolutional neural networks (CNNs) to classify image data
 How to Reproduce
 
 # Clone the repo
-git clone https://github.com/yourusername/oral-cancer-detection.git
-cd oral-cancer-detection
+<pre> ```bash git clone https://github.com/yourusername/oral-cancer-detection.git cd oral-cancer-detection ``` </pre>
 
 # Create the environment
-conda env create -f environment.yml
-conda activate oral-cancer-env
+<pre> ```bash conda env create -f environment.yml conda activate oral-cancer-env ``` </pre>
 
-Project Structure
+# Project Structure
 
-notebooks/       # Development notebooks for training & evaluation
-src/             # Preprocessing and training scripts
-data/            # DO NOT upload large files; placeholders only
-models/          # Trained model outputs (add to .gitignore)
+<pre> ```plaintext notebooks/ # Development notebooks for training & evaluation src/ # Preprocessing and training scripts data/ # DO NOT upload large files; placeholders only models/ # Trained model outputs (add to .gitignore) ``` </pre>
 
-Contact
+# Contact
 
 For questions, contact Fadwa Elfeituri – ffe7@georgetown.edu
