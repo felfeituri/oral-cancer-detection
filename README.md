@@ -28,14 +28,21 @@ How to Reproduce
 ```bash
 git clone https://github.com/yourusername/oral-cancer-detection.git
 cd oral-cancer-detection
+```
 
 # Create the environment
 ```bash
 conda env create -f environment.yml conda activate oral-cancer-env
+```
 
 # Project Structure
 
-<pre> ```plaintext notebooks/ # Development notebooks for training & evaluation src/ # Preprocessing and training scripts data/ # DO NOT upload large files; placeholders only models/ # Trained model outputs (add to .gitignore) ``` </pre>
+```plaintext 
+notebooks/ # Development notebooks for training & evaluation
+src/ # Preprocessing and training scripts
+data/ # DO NOT upload large files;
+placeholders only models/ # Trained model outputs (add to .gitignore)
+```
 
 # Contact
 
