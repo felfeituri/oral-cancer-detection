@@ -78,7 +78,7 @@ The project implemented two CNN-based models:
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```plaintext
 oral-cancer-detection/
@@ -98,7 +98,7 @@ oral-cancer-detection/
 └── README.md
 ```
 --- 
-## 🚀 How to Reproduce
+## How to Reproduce
 
 ### Clone the Repository
 ```bash
