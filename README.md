@@ -80,22 +80,37 @@ The project implemented two CNN-based models:
 
 ## 📁 Repository Structure
 
+```plaintext
 oral-cancer-detection/
 ├── notebooks/
-│ ├── KaggleModel_DataCleaning_Notebook.ipynb
-│ └── KaggleModel_Development_Notebook.ipynb
+│   ├── KaggleModel_DataCleaning_Notebook.ipynb
+│   └── KaggleModel_Development_Notebook.ipynb
 ├── manifests/
-│ └── image_metadata_manifest.csv
+│   └── image_metadata_manifest.csv
 ├── models/
-│ └── best_model.h5
+│   └── best_model.h5
 ├── outputs/
-│ └── figures/ (e.g., confusion matrix)
+│   └── figures/            # e.g., confusion matrix
 ├── report/
-│ └── Final_Project_Report.pdf
+│   └── Final_Project_Report.pdf
 ├── requirements.txt
 ├── .gitignore
 └── README.md
+```
+--- 
+## 🚀 How to Reproduce
 
+### Clone the Repository
+```bash
+git clone https://github.com/yourusername/oral-cancer-detection.git
+cd oral-cancer-detection
+```
+
+### Create the Environment
+```bash
+conda env create -f environment.yml
+conda activate oral-cancer-env
+```
 
 ---
 
