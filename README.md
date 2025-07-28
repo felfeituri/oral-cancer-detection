@@ -102,7 +102,7 @@ oral-cancer-detection/
 
 ### Clone the Repository
 ```bash
-git clone https://github.com/yourusername/oral-cancer-detection.git
+git clone https://github.com/felfeituri/oral-cancer-detection.git
 cd oral-cancer-detection
 ```
 
